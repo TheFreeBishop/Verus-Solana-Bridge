@@ -8,7 +8,7 @@ Bounty started on Initial research Phase.
 
 ## Project synopsis
 
-- [ ]: 1. Rust RPC Server
+- [ ] 1. Rust RPC Server
     - [ ] 1.1 Handle API calls from the Verus Daemon
     - [ ] 1.2 Serialize and deserialize data
     - [ ] 1.3 Interact with Solana smart contract endpoints               
@@ -20,7 +20,7 @@ Bounty started on Initial research Phase.
 - [ ] 5. Mobile app to interact with Solana and Verus 
 
 ```mermaid
-%%{init: { 'theme': 'forest' }}%%
+%%{init: { 'theme': 'dark', 'themeCSS': 'svg {background-color: black}' }}%%
 graph LR
     A[Verus Daemon \n With modifications\n to handle\n solana proofs] -->|API Calls| B(Bridgekeeper)
     B --> C{API Call \n smart contract}
@@ -46,15 +46,15 @@ graph LR
 
 #### Resources
 
-:icon-arrow-right: [!badge variant="dark" icon="/verus-icon-white.svg" text="Verus Daemon"](https://github.com/VerusCoin/VerusCoin)
+(https://github.com/VerusCoin/VerusCoin)
 
-:icon-arrow-right: [!badge variant="dark" icon="/verus-icon-white.svg" text="Verus Ethereum Contracts"](https://github.com/VerusCoin/Verus-Ethereum-Contracts)
+(https://github.com/VerusCoin/Verus-Ethereum-Contracts)
 
-:icon-arrow-right: [!badge variant="dark" icon="/verus-icon-white.svg" text="Verus Bridgekeeper"](https://github.com/VerusCoin/Verusbridgekeeper)
+(https://github.com/VerusCoin/Verusbridgekeeper)
 
-:icon-arrow-right: [!badge variant="dark" icon="/verus-icon-white.svg" text="Verus Ethereum Website"](https://github.com/VerusCoin/VerusBridgeWebsite)
+(https://github.com/VerusCoin/VerusBridgeWebsite)
 
-:icon-arrow-right: [!badge variant="dark" icon="/verus-icon-white.svg" text="Verus Mobile App"](https://github.com/VerusCoin/Verus-Mobile)
+(https://github.com/VerusCoin/Verus-Mobile)
 
-:icon-arrow-right: [!badge variant="dark" icon="/verus-icon-white.svg" text="Verus TS Resources"](https://github.com/VerusCoin/verus-typescript-primitives)
+[](https://github.com/VerusCoin/verus-typescript-primitives)
 
